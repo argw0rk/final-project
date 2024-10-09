@@ -1,3 +1,9 @@
 @charset "utf-8";
 /* CSS Document */
-
+*{
+	box-sizing:border-box;
+}
+body{
+	background: url("") no-repeat fixed top right;
+	
+}
