@@ -4,7 +4,8 @@
 	box-sizing:border-box;
 }
 body{
-	background: url("Images/photos/pink-stars.jpg");
+	background: url("Assets/doodle-bg.png");
+	background-size: 750px 750px;
 	
 }
 #container{ 

@@ -5,13 +5,21 @@
 	box-sizing:border-box;
 }
 body{
-	background: url("Images/photos/pink-stars.jpg");
+	background: url("Assets/doodle-bg.png");
+	background-size: 750px 750px;
 	
 }
 #container{ 
 width:800px;
 	margin: 0 auto;
 	background-color: rgba(255,255,255,0.30)
+}
+#Home .container {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	padding-bottom: 80px;
+	
 }
 /*Navigtion bar code */
 nav{
