@@ -4,6 +4,58 @@
 <meta charset="utf-8">
 <title>photo</title>
 	<link rel="stylesheet" href="photo.css">
+<style>
+	div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+	
+	
+	
+	
+	</style>
 </head>
 <body>
 	
@@ -21,16 +73,63 @@
 	<a></a>
 	
 	<!--dolphin images-->
-	<div id="container" style= "width: 1300px;">
-		<article class= "left"><img src="images/photos/dolphin-1.jpg" alt="dolphin-1" style= "width: 400px;" "height: 300px;"/>
-		<img src="images/photos/dolphin-2.jpg" alt="dolphin-2" style= "width: 400px;" height:"300px;"/>
-		<img src="images/photos/dolphin-3.jpg" alt="dolphin-3" style= "width: 400px;" height:"300px;"/> </article>
-		
-				
-		
-		
-	</div>
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/photos/dolphin-1.jpg">
+      <img src="images/photos/dolphin-1.jpg" alt="dolphin1" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/photos/dolphin-2.jpg">
+      <img src="images/photos/dolphin-2.jpg" alt="flying dolphin" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/photos/dolphin-3.jpg">
+      <img src="images/photos/dolphin-3.jpg" alt="Two jumping dolphins" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+
+<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/photos/dolphin-4.jpg">
+      <img src="images/photos/dolphin-4.jpg" alt="open mouth dolphin" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/photos/dolphin-5.jpg">
+      <img src="images/photos/dolphin-5.jpg" alt="Two jumping dolphins" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
+	<div class="responsive">
+  <div class="gallery">
+    <a target="_blank" href="images/photos/dolphin-1.jpg">
+      <img src="images/photos/dolphin-1.jpg" alt="dolphin1" width="600" height="400">
+    </a>
+    <div class="desc">Add a description of the image here</div>
+  </div>
+</div>
 	
+
+<div class="clearfix"></div>
+
+	<div style="padding:1px;">
+	</div>
 	
 </body>
 </html>
